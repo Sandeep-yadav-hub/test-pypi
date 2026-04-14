@@ -2,6 +2,8 @@ FROM python:3.11-slim
 
 # 2. Set the working directory inside the container
 WORKDIR /app
+RUN python3 -m venv env
+RUN source env/bin/activate
 
 # 3. Copy your dependency file first (for better caching)
 COPY pyproject.toml .
