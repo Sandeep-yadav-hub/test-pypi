@@ -3,9 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "@skyadav/test-pypi"  # Must be unique on PyPI
+name = "skyadav-test-pypi"  # Must be unique on PyPI
 version = "0.0.1"
 description = "A simple example package"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [{name = "skyadav", email = "pkytsky@gmail.com"}]
+
+dependencies = []
