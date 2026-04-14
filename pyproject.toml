@@ -9,3 +9,5 @@ description = "A simple example package"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [{name = "skyadav", email = "pkytsky@gmail.com"}]
+
+dependencies = []
