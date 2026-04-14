@@ -14,9 +14,9 @@ COPY pyproject.toml .
 
 # 4. Install dependencies 
 # (Note: Alpine needs 'build-base' if your package has C-extensions)
-RUN pip install --no-cache-dir .
+RUN pip install --no-cache-dir build .
 
 # 5. Copy the rest
 COPY . .
 
-RUN python -m build
+RUN python -m build --no-isolation
