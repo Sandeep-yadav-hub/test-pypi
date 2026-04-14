@@ -18,3 +18,5 @@ RUN pip install --no-cache-dir .
 
 # 5. Copy the rest
 COPY . .
+
+RUN python -m build
